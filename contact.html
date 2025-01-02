@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo1.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class='bx bxs-basket'></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, we love to hear for you!</p>
+    </section>
+    <br>
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class='bx bx-map-alt'></i>
+                    54 Main Road Pollachi Coimbatore
+                </li>
+                <li>
+                    <i class='bx bxs-envelope'></i>
+                    contact@example.com
+                </li>
+                <li>
+                    <i class='bx bxs-phone'></i>
+                    +1 234 567 890
+                </li>
+                <li>
+                    <i class='bx bx-stopwatch'></i>
+                    Monday to Sunday: 09:00 AM to 09:00 PM
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15683.804090949989!2d76.99446282037896!3d10.660909700634498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba839d117dea505%3A0xb3fd96d9c8642659!2sPollachi%2C%20Tamil%20Nadu%20642001!5e0!3m2!1sen!2sin!4v1729594334730!5m2!1sen!2sin" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section id="contact-form-section" class="section-p1">
+        <div class="form-container">
+            <h3>Leave a Message</h3>
+            <h1>We love to hear from you</h1>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+        <div class="contact-details">
+            <div class="contact-person">
+                <img src="img/people/1.png" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Senior Marketing Manager</p>
+                <p>Phone: +000 123 000 77 88</p>
+                <p>Email: contact@example.com</p>
+            </div>
+            <div class="contact-person">
+                <img src="img/people/2.png" alt="William Smith">
+                <h4>William Smith</h4>
+                <p>Senior Marketing Manager</p>
+                <p>Phone: +000 123 000 77 88</p>
+                <p>Email: contact@example.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign-up for newsletter</h4>
+            <p>Get E-Mail updates about our latest shop <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-Mail Address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo1.png"class="logo1" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> main Road, Pollachi</p>
+            <p><strong>Phone:</strong> +91 6374673595</p>
+            <p><strong>Hours:</strong> 10 AM to 09 PM, Mon to Sat</p>
+            <div class="follow"><br>
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-pinterest-alt' ></i>
+                <i class='bx bxl-youtube' ></i>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@ 2024, HTML CSS E-Commerce Template</p>
+        </div>
+
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
